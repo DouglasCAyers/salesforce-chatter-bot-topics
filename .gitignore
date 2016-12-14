@@ -1,3 +1,5 @@
 Referenced Packages/
 .settings/
+.project
 config/
+salesforce.schema
