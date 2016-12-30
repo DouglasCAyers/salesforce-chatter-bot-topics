@@ -1,4 +1,11 @@
-public with sharing class ChatterBotTopicAssignTriggerHandler {
+/**
+ * Note, 'without sharing' is used in this class.
+ * Most users will not have sharing access to the Chatter_Bot_Topic__c object
+ * but we want to ensure this trigger handler can update those records when any
+ * user assigns a new topic to a chatter post.
+ * https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_keywords_sharing.htm
+ */
+public without sharing class ChatterBotTopicAssignTriggerHandler {
 
     public void handleAssignments( List<TopicAssignment> topicAssignments ) {
 
