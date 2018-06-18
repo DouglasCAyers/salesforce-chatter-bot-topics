@@ -1,6 +1,12 @@
 Salesforce Chatter Bot for Topics
 =================================
 
+---
+
+# As of [Spring '18](https://releasenotes.docs.salesforce.com/en-us/spring18/release-notes/rn_networks_process_more_objects.htm), this project is no longer necessary. The capability is now native to the platform.
+
+---
+
 Overview
 --------
 
